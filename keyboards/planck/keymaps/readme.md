@@ -1,23 +1,24 @@
-# How to add your own keymap
+{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf830
+{\fonttbl\f0\fmodern\fcharset0 Courier;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
 
-Folders can be named however you'd like (will be approved upon merging), or should follow the format with a preceding `_`:
-
-    _[ISO 3166-1 alpha-2 code*]_[layout variant]_[layout name/author]
-
-\* See full list: https://en.wikipedia.org/wiki/ISO_3166-1#Officially_assigned_code_elements
-
-and contain the following files:
-
-* `keymap.c`
-* `readme.md` *recommended*
-* `config.h` *optional*, found automatically when compiling
-* `Makefile` *optional*, found automatically when compling
-
-When adding your keymap to this list, keep it organised alphabetically (select list, edit->sort lines), and use this format:
-
-     * **folder_name** description
-
-# List of Planck keymaps
-
-* **default** default Planck layout
-* **cbbrowne** cbbrowne's Planck layout
+\f0\fs26 \cf0 \expnd0\expndtw0\kerning0
+This layout adds a new function layer similar to the default one from the pok3r:\
+\
+    /* Function\
+     * ,-----------------------------------------------------------------------------------.\
+     * | Esc  |      | Prev | Play | Next |      |      |Pg Up |  Up  |Pg Dn |Prt Sc| Del  |\
+     * |------+------+------+------+------+-------------+------+------+------+------+------|\
+     * |      |      | Vol- | Mute | Vol+ |      | Home | Left | Down |Right | End  |      |\
+     * |------+------+------+------+------+------|------+------+------+------+------+------|\
+     * |      |      |      |      |      |      |      |      |      |      |      |      |\
+     * |------+------+------+------+------+------+------+------+------+------+------+------|\
+     * |      |      |      |      |      |             |      | Home |Pg Up |Pg Dn | End  |\
+     * `-----------------------------------------------------------------------------------'\
+     */\
+\
+You can acces this layer by holding the first key on the second line from the top.}
